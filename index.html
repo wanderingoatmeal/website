@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WanderingOatmeal</title>
-    <link rel="icon" type="image/icon" href="/images/favicon/icon.ico?">
+    <link rel="icon" type="image/icon" href="/images/misc/icon.ico?">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
+
+
+
+
 <body>
-    <header>
 
-        <h1>WIP</h1>
-
-    <hr>
-
-    </header>
-
-
-    <nav>
-
-        <a href="./pages/about.html">
-            <button>About</button><br>
-        </a>
-
-        <a><br>Projects:<br></a>
-
-        <a href="./pages/camera.html">DIY Camera<br></a>
-        <a href="./pages/oscilloscope.html">Oscilloscope PC Conversion<br></a>
-        <a href="./pages/bike.html">Bicycle<br></a>
-        <a href="./pages/models.html">Scale Models<br></a>
-
+    <nav class="navbar">
+        <ul>
+            <li><a class="logo" href=""><img src="./images/misc/icon.jpg" alt="logo"></img></a></li>
+            <li><h1>WanderingOatmeal</h1></li>
+            <li><a href="">Home</a></li>
+                
+            <div class="dropdown">
+                <a>Projects</a>
+                <div class="content">
+                    <a href="./pages/camera.html">DIY Camera</a>
+                    <a href="./pages/oscilloscope.html">Oscilloscope PC Conversion</a>
+                    <a href="./pages/rogue.html">Hybrid Rocket</a>
+                    <a href="./pages/about.html">Website</a>
+                    <a href="./pages/bike.html">Bicycle</a>
+                    <a href="./pages/models.html">Scale Models</a>
+                    <a href="./pages/garage.html">Garage Wall</a>
+                    <a href="./pages/photos.html">Photos</a>
+                </div>
+            </div>
+                
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
     </nav>
 
+    <h1>Welcome!</h1>
+    <p>
+        This website is currently a work in progress. It features a collection of some personal projects and various other
+        odds and ends. Below are some examples of my work. Feel free to browse through
+        them and reach out with any questions.
+    </p>
 
-    <main>
-
-    </main>
-
-
-
-    <footer>
-
-    </footer>
+    <div class="carousel">
+        <div class="carousel-content">
+            <div class="card"><img src="./images/carousel/perserverance.jpg" height="240"></div>
+            <div class="card"><img src="./images/carousel/bike-holland.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/camera.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/poptest.jpg" height="240"></div>
+            <div class="card"><img src="./images/carousel/garage.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/t-34.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/bike-portugal.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/lafayette.jpg" height="240"></div>
+            <div class="card"><img src="./images/carousel/pathfinder.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/bike-repair.JPEG" height="240"></div>
+        </div>
+        <div aria-hidden class="carousel-content">
+            <div class="card"><img src="./images/carousel/perserverance.jpg" height="240"></div>
+            <div class="card"><img src="./images/carousel/bike-holland.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/camera.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/poptest.jpg" height="240"></div>
+            <div class="card"><img src="./images/carousel/garage.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/t-34.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/bike-portugal.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/lafayette.jpg" height="240"></div>
+            <div class="card"><img src="./images/carousel/pathfinder.JPEG" height="240"></div>
+            <div class="card"><img src="./images/carousel/bike-repair.JPEG" height="240"></div>
+        </div>
+    </div>
 </body>
 </html>
