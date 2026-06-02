@@ -91,6 +91,28 @@ nav{
 
 
 
+/* General Content */
+.genpara {
+    padding: 16px;
+    text-indent: 32px;
+}
+
+.pdf {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+
 /* Photo Carousel */
 .carousel {
     margin: 100px auto;
